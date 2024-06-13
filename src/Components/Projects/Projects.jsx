@@ -84,7 +84,7 @@ const Projects = () => {
           <a
             onClick="window.open(this.href,'_blank');return false;"
             target="_blank"
-            href="https://aryanmule.github.io/MagmaVisionReplica/"
+            href="https://aryanmule.github.io/REALVUE/"
             className="w-1/2 h-[30vw]"
           >
             {" "}
@@ -99,7 +99,7 @@ const Projects = () => {
               className="cardr  relative"
             >
               <h1 className="lft absolute right-full top-1/2 -translate-y-[50%] translate-x-[50%] z-10 text-[8.3vw] leading-none  font-['FoundersGrotesk'] flex text-[#CDEA68] overflow-hidden ">
-                {"MAGMA.".split("").map((item, index) => (
+                {"REALVUE.".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}
                     animate={isHovering == 2 ? { y: "0%" } : { y: "100%" }}
@@ -123,7 +123,7 @@ const Projects = () => {
                 <div className="descr bg-zinc-700 text-[1.3vw] p-[0.4vw] text-zinc-100 font-semibold font-['FoundersGrotesk'] tracking-normal  pl-[2vw] pr-[2vw] text-justify ">
                   <p>
                     {" "}
-                    MAGMA - a sleek and modern website for a fictional
+                    REALVUE - a sleek and modern website for a fictional
                     company specializing in RealEstate business
                   </p>
                 </div>
