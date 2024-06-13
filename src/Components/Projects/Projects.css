@@ -1,0 +1,59 @@
+.rght {
+  position: absolute;
+  z-index: 99;
+}
+@media (max-width: 500px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20vw;
+  }
+  .cardl,
+  .cardr {
+    width: 70vw;
+    margin-bottom: 14vw;
+    left: 10%;
+  }
+  .cardl img,
+  .cardr img {
+    height: 35vw;
+  }
+  .lft {
+    right: 50%;
+    top: 100%;
+    font-size: 6vw;
+  }
+  .rght {
+    left: 0%;
+    font-size: 6vw;
+    top: 0%;
+  }
+  .descr > p {
+    font-size: 3vw;
+  }
+  .featured {
+    display: flex;
+    justify-content: center;
+  }
+  .featured > h1 {
+    font-size: 9vw;
+  }
+  .projects {
+    margin-top: -30vw;
+  }
+}
+.cardl {
+  transform: perspective(1600px) rotateY(15deg);
+  transition: all 0.7s ease;
+}
+.cardr {
+  transform: perspective(1600px) rotateY(-15deg);
+  transition: all 0.7s ease;
+}
+.cardl:hover {
+  transform: perspective(1600px) rotateY(-15deg) rotateX(15deg);
+}
+.cardr:hover {
+  transform: perspective(1600px) rotateY(15deg) rotateX(15deg);
+}

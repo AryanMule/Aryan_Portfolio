@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@media (max-width: 500px) {
+  .menuitem {
+    font-size: 2.2vw;
+  }
+
+  .menu {
+    gap: 2vw;
+  }
+
+  #resume {
+    width: 14vw;
+    height: 4vw;
+    gap: 1vw;
+    background-color: green;
+  }
+
+  .logoresume {
+    scale: 1.5;
+  }
+}
+
+@media (max-width: 1000px) {
+  .menuitem {
+    font-size: 1.7vw;
+  }
+
+  .menu {
+    gap: 2vw;
+  }
+
+  #resume>h1 {
+    font-size: 2vw;
+  }
+
+  #resume {
+    width: 14vw;
+    height: 4vw;
+    gap: 1vw;
+  }
+
+  .logoresume {
+    scale: 1.5;
+  }
+}
+
+.PortfolioLogo,
+.menu h1 {
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+  font-size: 1.13vw;
+
+}
+
+.resumeText {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.15vw;
+  font-weight: 600;
+
+}
+.logo-image{
+  object-fit: cover;
+  width: 90px;
+}
