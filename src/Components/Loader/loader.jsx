@@ -1,25 +1,36 @@
 import React from "react";
-import { Oval } from 'react-loader-spinner';
 import "../Loader/loader.css";
-
+import loadvdo from "../assets/loadvdo.mp4";
 
 const Loading = () => {
     return (
-
         <div className="loader">
+            <video className="background-video" src={loadvdo} autoPlay loop muted></video>
 
-            <Oval 
-                visible={true}
-                height="80"
-                width="80"
-                color="#4fa94d"
-                ariaLabel="oval-loading"
-                wrapperStyle={{}}
-                wrapperClass=""
-            />
+            <div className="content">
+                {/* <div className="bodyy">
+                    <span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <div className="base">
+                        <span></span>
+                        <div className="face"></div>
+                    </div>
+                </div>
+                <div className="longfazers">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>  
+                                <h1>LOADING</h1>
 
+                 */}
+            </div>
         </div>
-
     );
 };
 
