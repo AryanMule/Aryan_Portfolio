@@ -37,7 +37,7 @@ const Projects = () => {
           <a
             onClick="window.open(this.href,'_blank');return false;"
             target="_blank"
-            href="https://aryanmule.github.io/GREENOVA/"
+            href="https://aryanmule.github.io/Greenova_envhub/"
             className="w-1/2 h-[30vw]"
           >
             {" "}
